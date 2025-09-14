@@ -8,8 +8,8 @@ if os.path.exists("local.env"):
 load_dotenv()
 que = {}
 SESSION_NAME = getenv("SESSION_NAME", "BAFN6r0As-zf7RjX9rV9mx-FpqRb6m1mIzW8GBFZ-0lH-rfOsyjUOLjF6AcExzhOdeaDf1CGh8ljBH2j169S3ujwrKYFSztRBg4dS2kfjJWU25M2sPC9Jk_P5l-ybuoKDYGjdt7tEVpqlrhMlCmIZ4-YNVqESuM8DeKaLXh4_PmRz0SrBWdsBkCfYnG4IogFu49e4Ej-bEZ8rQBPpvDicnIpd8JjUl6t98BDPO0mqlBUsWY54wuI534tJKln8iJvDa-HsDuHuUmOgN37EtWgI4YP5HQX1MYWQZCa1c_URR-rOKgHJJBLIsYZEL2NCoQnVTzNkH-vShLXeys3X2Aoc2ZbEpvjmAAAAAHnAcMFAA")
-BOT_TOKEN = getenv("BOT_TOKEN")
-BOT_NAME = getenv("BOT_NAME", "Talia Müzik Projesi")
+BOT_TOKEN = getenv("8209712439:AAH-TuZmh0ou1sUw5KtT7Ebox4Av7lQIkFg")
+BOT_NAME = getenv("BOT_NAME", "Artz Music Projesi")
 BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/cd0b87484429704c7b935.png")
 THUMB_IMG = getenv("THUMB_IMG", "https://i.ibb.co/VQd4HSH/Photo-1629477903701.jpg")
 AUD_IMG = getenv("AUD_IMG", "https://i.ibb.co/VQd4HSH/Photo-1629477903701.jpg")
@@ -21,8 +21,8 @@ BOT_USERNAME = getenv("BOT_USERNAME", "leousertaggerbot")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "ramomusicasis")
 GROUP_SUPPORT = getenv("GROUP_SUPPORT", "Sohbetdestek")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "EfsaneMusicProject")
-OWNER_NAME = getenv("OWNER_NAME", "Mahoaga") # kullanıcı adınızı semboller olmadan doldurma @
-DEV_NAME = getenv("DEV_NAME", "mahoaga")
+OWNER_NAME = getenv("OWNER_NAME", "artzfounder") # kullanıcı adınızı semboller olmadan doldurma @
+DEV_NAME = getenv("DEV_NAME", "artzfounder")
 PMPERMIT = getenv("PMPERMIT", None)
 
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "250"))
